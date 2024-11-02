@@ -1,0 +1,65 @@
+body {
+    background-image: url('https://cdn.radiall.com/media/contentmanager/content/insights/iStock-1291343894.jpg');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for form and result */
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffd700;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 2px 2px 5px #000;
+    margin-bottom: 20px;
+}
+
+label,
+input,
+select,
+button {
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ffd700;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffc107;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #0f0;
+}
